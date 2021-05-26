@@ -2,14 +2,73 @@
 <html>
 	<head>
 		<title>exercicios</title>
- 		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-		<script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin></script>
-  		<script type="text/babel" src="ex4.js"></script>
+		<link rel="stylesheet" href="catalog.css">
+		<link rel="stylesheet" href="patterns.css">
+		<link rel="stylesheet" href="navbar.css" 		meta charset="utf-8">
+ 		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  		<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  		<script type="text/babel" src="reeact.js"></script>
+
+  		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
 	</head>
 
 
 	<body>
-		<div id="reacthere"/>
+		<div class="navigation">
+			<div className="LEFT">
+				<img src="assets/logo.png" class="logoimg"></img>
+				<a class="logo">D. F. G. J. </a>
+			</div>
+			<div className="MID">
+				<button class="pageButton">Home</button></a>
+			</div>
+			<div className="MID">
+				<button class="pageButton">Catalog</button></a>
+			</div>
+			<div className="MID">
+				<button class="pageButton">About</button></a>
+			</div>
+			<div className="RIGHT">
+				<button class="contactButton">Contact</button></a>
+			</div>
+		</div>
+		<div class="navPlaceholder">
+		</div>
+
+
+		<div id="root">
+			<script type="text/babel" src="reeact.js">
+			</script>
+		</div>
+
+
+		<div id="bottom" class="bottom">
+			<div class="copyrightBox">
+				<p>Car images, models, from  <a href="https://forzamotorsport.net/en-US/games/fh" style="text-decoration:underline;">Forza Horizon 4,3 and 2</a> property of Playground Games</p>
+				<p>Hosted using <a href="https://aws.amazon.com/" style="text-decoration: underline;">AWS</a> Amplify (Educate License) </p>
+				<p>Built with 
+					<a href="https://reactjs.org/" style="text-decoration:underline;">React</a> 
+					and 
+					<a href="https://www.javascript.com/" style="text-decoration:underline;">Javascript</a>
+				</p>
+				<p>Using font <a href="https://fonts.google.com/specimen/Raleway" style="text-decoration:underline;">Raleway</a> from Google Fonts.</p>
+				<p>Prices are not representative of actual value.</p>
+			</div>
+			<div class="otherBox">
+				<p>   Departamento de Engenharia Informática </p>
+				<p>
+						Faculdade de Ciências e Tecnologia
+						Universidade de Coimbra
+					</p>
+				<p>   <a href="https://www.google.pt/maps/dir//Departamento+de+Engenharia+Inform%C3%A1tica+-+FCTUC,+Universidade+de+Coimbra,+P%C3%B3lo+II+-+Pinhal+de+Marrocos,+3030-290+Coimbra,+Portugal/@40.1863787,-8.4161032,15z/data=!4m12!1m3!3m2!1s0x0:0xd3822ec1d359eb52!2sDepartamento+de+Engenharia+Inform%C3%A1tica+-+FCTUC!4m7!1m0!1m5!1m1!1s0xd22f9952aaf6517:0xd3822ec1d359eb52!2m2!1d-8.4161032!2d40.1863787">Pólo II - Pinhal de Marrocos
+						3030-290 Coimbra</a></p>
+				<p>   Services Engineering Course.</p>
+			</div>
+		</div>
+		
 	</body>
 </html>

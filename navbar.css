@@ -1,0 +1,147 @@
+.navigation{
+	margin:0;
+	padding:0;
+	display:flex;
+	z-index: 10;
+	position: fixed;
+	top:0;
+	left:0;
+	width:80%;
+	color:black;
+	justify-content: space-between;
+	align-items: center;
+	padding:0.5% 10%;
+	background: #FFFFFF;
+	
+	margin-bottom:1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.01);
+}
+.navPlaceholder{
+	display: block;
+	top:0;
+	left:0;
+	height:75px;
+	width:100%;
+}
+.navigation li, a, button{
+	font-family: Raleway, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.RIGHT{
+	width:25%;
+}
+.LEFT{
+	width:25%;
+}
+.logo{
+	font-family: 'Raleway', sans-serif;
+	cursor:pointer;
+	font-size:32px;
+	font-weight: 900;
+}
+.logoimg{
+	height:4vh;
+}
+.nav_links{
+	color:#0088a9;
+}
+.pageButton{
+	border-radius:5px;
+	background: none;
+	background-color: none;
+
+	border:none;
+	padding:8px;
+	cursor:pointer;
+	color:#2768a9;
+	
+	font-family:'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size:20px;
+	transition:0.5s ease-in-out;
+}
+.pageButton{
+	border-radius:5px;
+	background: none;
+	background-color: none;
+
+	border:none;
+	padding:8px;
+	cursor:pointer;
+	color:#2768a9;
+	
+	font-family:'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size:20px;
+	transition:0.5s ease-in-out;
+}
+.pageButton:hover{
+	border-radius:5px;
+	background: none;
+	background-color: none;
+
+	border:none;
+	padding:8px;
+	cursor:pointer;
+	color:#1B81E5;
+	
+	font-family:'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size:20px;
+	transition:0.5s ease-in-out;
+}
+.contactButton{
+	
+	border-radius:5px;
+	background-color:#2768a9;
+	border:none;
+	padding:8px 25px;
+	margin: 0px 3vw;
+	cursor:pointer;
+	color:#FFFFFF;
+	
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	transition:0.2s ease-in-out;
+}
+.contactButton:hover{
+	
+	border-radius:1px;
+	background-color:#1B81E5 ;
+}
+.bottom{
+	border-top:2px solid #EEEEEE;
+	border-top-style: groove;
+	height:25vh;
+	background-color: #ececec;
+	color:#2768a9;
+	background-image:  linear-gradient(135deg, #f7f7f7 25%, transparent 25%), linear-gradient(225deg, #f7f7f7 25%, transparent 25%), linear-gradient(45deg, #f7f7f7 25%, transparent 25%), linear-gradient(315deg, #f7f7f7 25%, #ececec 25%);
+	background-position:  4px 0, 4px 0, 0 0, 0 0;
+	background-size: 4px 4px;
+	background-repeat: repeat;
+	margin-top:3%;
+  	opacity:1;
+  	display:flex;
+  	position:relative;
+  		justify-content: space-between;
+  		padding-left:10vw;
+  		padding-right:10vw;
+  		font-family: 'Raleway', sans-serif;
+  		font-size: 14px;
+}
+.copyrightBox{
+	opacity:1;
+	padding: 0px 50px;
+}
+.otherBox{
+	opacity:1;
+	color:black;
+	padding: 0px 50px;
+}
+
+.bottom a{
+	font-size:14px;
+}
