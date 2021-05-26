@@ -55,53 +55,53 @@ class CarTable extends React.Component{
 	}
 	render(){
 		var products = [
-			{id:0, 	name:'F82 M4 Coupé', 		price:"69.999", 	manufacturer:'BMW', 			img:'assets/bmw_m4.png'				,type:'Petrol'		,engine:'Turbocharged I6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:0, 	name:'F82 M4 Coupé', 		price:"69.999", 	manufacturer:'BMW', 			img:'/assets/bmw_m4.png'				,type:'Petrol'		,engine:'Turbocharged I6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:1, 	name:'F10 M5', 				price:"89.999", 	manufacturer:'BMW', 			img:'assets/bmw_m5.png'				,type:'Petrol'		,engine:'Twin-Turbo V8' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:1, 	name:'F10 M5', 				price:"89.999", 	manufacturer:'BMW', 			img:'/assets/bmw_m5.png'				,type:'Petrol'		,engine:'Twin-Turbo V8' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:2, 	name:'M87 M2 Coupé', 		price:"58.999", 	manufacturer:'BMW', 			img:'assets/bmw_m2.png'				,type:'Petrol'		,engine:'NA V6' 				,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:2, 	name:'M87 M2 Coupé', 		price:"58.999", 	manufacturer:'BMW', 			img:'/assets/bmw_m2.png'				,type:'Petrol'		,engine:'NA V6' 				,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:3, 	name:'i8 Roadster', 		price:"159.999", 	manufacturer:'BMW', 			img:'assets/bmw_i8.png'				,type:'Hybrid' 		,engine:'Turbocharged I3' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:3, 	name:'i8 Roadster', 		price:"159.999", 	manufacturer:'BMW', 			img:'/assets/bmw_i8.png'				,type:'Hybrid' 		,engine:'Turbocharged I3' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:4, 	name:'IS 350F Sport', 		price:"89.999", 	manufacturer:'Lexus', 			img:'assets/lexus_is350f.png'			,type:'Petrol' 		,engine:'NA V6' 				,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:4, 	name:'IS 350F Sport', 		price:"89.999", 	manufacturer:'Lexus', 			img:'/assets/lexus_is350f.png'			,type:'Petrol' 		,engine:'NA V6' 				,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:5, 	name:'LFA', 				price:"119.999", 	manufacturer:'Lexus', 			img:'assets/lexus_lfa.png'				,type:'Petrol' 		,engine:'Performance NA V10' 	,hasMods:'false'	,hasInteriorMods:'false'	
+			{id:5, 	name:'LFA', 				price:"119.999", 	manufacturer:'Lexus', 			img:'/assets/lexus_lfa.png'				,type:'Petrol' 		,engine:'Performance NA V10' 	,hasMods:'false'	,hasInteriorMods:'false'	
 			,colors:['red','green','blue']},
-			{id:6, 	name:'SLK-Class R172', 		price:"99.999",		manufacturer:'Mercedes-Benz', 	img:'assets/merc_slk.png'				,type:'Petrol' 		,engine:'Tuned TT V12' 			,hasMods:'false' 	,hasInteriorMods:'true' 	
+			{id:6, 	name:'SLK-Class R172', 		price:"99.999",		manufacturer:'Mercedes-Benz', 	img:'/assets/merc_slk.png'				,type:'Petrol' 		,engine:'Tuned TT V12' 			,hasMods:'false' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:7, 	name:'E-Class W213', 		price:"39.999",		manufacturer:'Mercedes-Benz', 	img:'assets/merc_w213.png'				,type:'Diesel'		,engine:'Turbodiesel I6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:7, 	name:'E-Class W213', 		price:"39.999",		manufacturer:'Mercedes-Benz', 	img:'/assets/merc_w213.png'				,type:'Diesel'		,engine:'Turbodiesel I6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:8, 	name:'Model S P90D', 		price:"71.999",		manufacturer:'Tesla', 			img:'assets/tesla_s.png'				,type:'Electric'	,engine:'Tri-Motor Induction' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:8, 	name:'Model S P90D', 		price:"71.999",		manufacturer:'Tesla', 			img:'/assets/tesla_s.png'				,type:'Electric'	,engine:'Tri-Motor Induction' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:9, 	name:'S4 ', 				price:"39.999",		manufacturer:'Audi', 			img:'assets/audi_s4.png'				,type:'Petrol' 		,engine:'Twin-Turbo V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:9, 	name:'S4 ', 				price:"39.999",		manufacturer:'Audi', 			img:'/assets/audi_s4.png'				,type:'Petrol' 		,engine:'Twin-Turbo V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:10, name:'RS6 Avant', 			price:"59.999",		manufacturer:'Audi', 			img:'assets/audi_rs6.png'				,type:'Petrol' 		,engine:'Turbocharged V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:10, name:'RS6 Avant', 			price:"59.999",		manufacturer:'Audi', 			img:'/assets/audi_rs6.png'				,type:'Petrol' 		,engine:'Turbocharged V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:11, name:'R8 5.2 FSI', 			price:"159.999", 	manufacturer:'Audi', 			img:'assets/audi_fsi.png'				,type:'Petrol' 		,engine:'Performance TT V8' 	,hasMods:'false'	,hasInteriorMods:'true' 	
+			{id:11, name:'R8 5.2 FSI', 			price:"159.999", 	manufacturer:'Audi', 			img:'/assets/audi_fsi.png'				,type:'Petrol' 		,engine:'Performance TT V8' 	,hasMods:'false'	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:12, name:'4C', 					price:"79.999", 	manufacturer:'Alfa Romeo', 		img:'assets/alfa_4c.png'				,type:'Petrol' 		,engine:'Performance NA I4' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:12, name:'4C', 					price:"79.999", 	manufacturer:'Alfa Romeo', 		img:'/assets/alfa_4c.png'				,type:'Petrol' 		,engine:'Performance NA I4' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:13, name:'Vanquish', 			price:"89.999", 	manufacturer:'Aston Martin', 	img:'assets/aston_vanquish.png'		,type:'Petrol' 		,engine:'Twin-Turbo V10' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:13, name:'Vanquish', 			price:"89.999", 	manufacturer:'Aston Martin', 	img:'/assets/aston_vanquish.png'		,type:'Petrol' 		,engine:'Twin-Turbo V10' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:14, name:'Vantage', 			price:"189.999", 	manufacturer:'Aston Martin', 	img:'assets/aston_vantage.png'			,type:'Petrol' 		,engine:'Performance TT W12' 	,hasMods:'false'	,hasInteriorMods:'false'	
+			{id:14, name:'Vantage', 			price:"189.999", 	manufacturer:'Aston Martin', 	img:'/assets/aston_vantage.png'			,type:'Petrol' 		,engine:'Performance TT W12' 	,hasMods:'false'	,hasInteriorMods:'false'	
 			,colors:['red','green','blue']},
-			{id:15, name:'Continental GT', 		price:"123.999", 	manufacturer:'Bentley', 		img:'assets/bentley_continental.png'	,type:'Petrol' 		,engine:'Luxury TT W12' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:15, name:'Continental GT', 		price:"123.999", 	manufacturer:'Bentley', 		img:'/assets/bentley_continental.png'	,type:'Petrol' 		,engine:'Luxury TT W12' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:16, name:'CTS-V Sedan', 		price:"25.999", 	manufacturer:'Cadillac', 		img:'assets/cadillac_cvt.png'			,type:'Petrol' 		,engine:'Economy Turbo I4' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:16, name:'CTS-V Sedan', 		price:"25.999", 	manufacturer:'Cadillac', 		img:'/assets/cadillac_cvt.png'			,type:'Petrol' 		,engine:'Economy Turbo I4' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:17, name:'Q50 Eau-Rouge', 		price:"125.999", 	manufacturer:'Infiniti', 		img:'assets/infiniti_rouge.png'		,type:'Petrol' 		,engine:'Tuned Turbo V8' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:17, name:'Q50 Eau-Rouge', 		price:"125.999", 	manufacturer:'Infiniti', 		img:'/assets/infiniti_rouge.png'		,type:'Petrol' 		,engine:'Tuned Turbo V8' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:18, name:'I-Pace', 				price:"28.999", 	manufacturer:'Jaguar',			img:'assets/jaguar_ipace.png'			,type:'Diesel' 		,engine:'Economy Turbo V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:18, name:'I-Pace', 				price:"28.999", 	manufacturer:'Jaguar',			img:'/assets/jaguar_ipace.png'			,type:'Diesel' 		,engine:'Economy Turbo V6' 		,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:19, name:'XE-S', 				price:"35.999", 	manufacturer:'Jaguar',			img:'assets/jaguar_xes.png'			,type:'Petrol' 		,engine:'Performance NA V6' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:19, name:'XE-S', 				price:"35.999", 	manufacturer:'Jaguar',			img:'/assets/jaguar_xes.png'			,type:'Petrol' 		,engine:'Performance NA V6' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:20, name:'XKR-S GT', 			price:"250.999", 	manufacturer:'Jaguar',			img:'assets/jaguar_xkr.png'			,type:'Petrol' 		,engine:'Performance TT V10' 	,hasMods:'false'	,hasInteriorMods:'true' 	
+			{id:20, name:'XKR-S GT', 			price:"250.999", 	manufacturer:'Jaguar',			img:'/assets/jaguar_xkr.png'			,type:'Petrol' 		,engine:'Performance TT V10' 	,hasMods:'false'	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:21, name:'Panamera-e Turbo', 	price:"80.999", 	manufacturer:'Porsche',			img:'assets/porsche_panamera.png'		,type:'Hybrid'		,engine:'Turbo-I3 Dual-Motor' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:21, name:'Panamera-e Turbo', 	price:"80.999", 	manufacturer:'Porsche',			img:'/assets/porsche_panamera.png'		,type:'Hybrid'		,engine:'Turbo-I3 Dual-Motor' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:22, name:'Macan-e', 			price:"69.999", 	manufacturer:'Porsche',			img:'assets/porsche_macan.png'			,type:'Hybrid'		,engine:'Turbo-I4 Quad-Motor' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
+			{id:22, name:'Macan-e', 			price:"69.999", 	manufacturer:'Porsche',			img:'/assets/porsche_macan.png'			,type:'Hybrid'		,engine:'Turbo-I4 Quad-Motor' 	,hasMods:'true' 	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
-			{id:23, name:'GT3', 				price:"159.999", 	manufacturer:'Porsche',			img:'assets/porsche_gt3.png'			,type:'Petrol'		,engine:'Performance NA F6' 	,hasMods:'false'	,hasInteriorMods:'true' 	
+			{id:23, name:'GT3', 				price:"159.999", 	manufacturer:'Porsche',			img:'/assets/porsche_gt3.png'			,type:'Petrol'		,engine:'Performance NA F6' 	,hasMods:'false'	,hasInteriorMods:'true' 	
 			,colors:['red','green','blue']},
 		]
 
